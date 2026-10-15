@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zásady ochrany osobních údajů – CoupleTender</title>
+<style>
+  :root { color-scheme: light dark; --fg:#1d1d1f; --bg:#fff; --muted:#6e6e73; --line:#d2d2d7; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#f5f5f7; --bg:#000; --muted:#a1a1a6; --line:#3a3a3c; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.55 -apple-system, system-ui, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:2rem; margin-top:0; }
+  h2 { font-size:1.3rem; margin-top:2rem; border-top:1px solid var(--line); padding-top:1rem; }
+  table { width:100%; border-collapse:collapse; font-size:15px; margin:1rem 0; }
+  th, td { text-align:left; vertical-align:top; padding:8px; border-bottom:1px solid var(--line); }
+  code { font-size:0.92em; }
+  ul, ol { padding-left:1.4rem; }
+  li { margin:0.3rem 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>Zásady ochrany osobních údajů – CoupleTender</h1>
+<p><strong>Platnost od:</strong> 15. 10. 2026<br><strong>Provozovatel:</strong> Miroslav Novák, Zahori, Smrci 60, 513 01 Semily, Česká republika<br><strong>Kontakt pro dotazy k soukromí:</strong> mira.smrci@gmail.com</p>
+<h2>Ve zkratce</h2>
+<ul><li>CoupleTender ukládá vše, co do aplikace zadáte, <strong>jen ve vašem zařízení</strong>.</li><li>Vývojář od vás <strong>nedostává žádná data</strong>. Aplikace nemá vlastní servery, analytiku, reklamu</li></ul>
+<p>ani sledování a nekomunikuje přes internet s nikým.</p>
+<ul><li>Data opustí zařízení jen tehdy, když je <strong>sami sdílíte</strong> (např. pošlete událost přes Zprávy),</li></ul>
+<p>nebo když zálohujete zařízení (zálohy řídí váš systém a Apple, ne aplikace).</p>
+<h2>Jaká data aplikace ukládá (v zařízení)</h2>
+<table><thead><tr><th>Data</th><th>Příklady</th><th>Citlivé</th></tr></thead><tbody><tr><td>Váš profil a lidé, které přidáte</td><td>jméno, barva, emoji, fotka</td><td>osobní údaje</td></tr><tr><td>Kalendáře a události</td><td>název, čas, místo, poznámky, odkaz, připomenutí, příznak soukromá, s kým je kalendář sdílený</td><td>osobní údaje</td></tr><tr><td><strong>Nálady</strong></td><td>nálada k události, aktuální nálada a vaše textová poznámka</td><td><strong>ano – citlivé</strong></td></tr><tr><td><strong>Deník</strong></td><td>názvy a texty zápisů (můžete zamknout pomocí Face ID nebo Touch ID)</td><td><strong>ano – citlivé</strong></td></tr><tr><td>Úkoly</td><td>název, poznámky, termín, priorita, s kým je sdílený</td><td>osobní údaje</td></tr><tr><td>Nákupní seznamy</td><td>položky, s kým je seznam sdílený</td><td>běžné</td></tr><tr><td>Cíle, domácnost, výzvy, rande</td><td>cíle a kroky, domácí práce a kdo je kdy udělal, výzvy a poznámky ke check-inům, nápady na rande, hodnocení a poznámky k rande</td><td>osobní údaje</td></tr><tr><td>Nastavení</td><td>jazyk, vzhled, motiv, časy dotazů na náladu</td><td>běžné</td></tr><tr><td>Přihlášení</td><td>identifikátor účtu od Apple (nebo náhodné ID lokálního profilu)</td><td>identifikátor</td></tr></tbody></table>
+<p>Data jsou uložena v chráněném úložišti aplikace (sandbox). Vývojář k nim nemá přístup.<br>Fotku profilu vybíráte systémovým výběrem; aplikace dostane jen tu jednu fotku a uloží si její zmenšenou kopii.</p>
+<h2>Kdy data opouštějí zařízení</h2>
+<ol><li><strong>Když je sami sdílíte</strong> přes systémovou nabídku Sdílet (Zprávy, Mail, AirDrop…): Co se s daty stane u příjemce, řídí příjemce a aplikace, kterou použije.<ul><li>událost nebo celý kalendář jako soubor <strong>.ics</strong> – obsahuje název, čas, místo, poznámky a připomenutí; <strong>nálady se nikdy neexportují</strong>,</li><li>úplný export (ZIP s <code>calendars.ics</code> a <code>backup.json</code>) – všechna data kromě nálad,</li><li>úkol jako soubor .ics nebo text, zápis z deníku a nákupní seznam jako text,</li><li>pozvánku pro partnera (obsahuje vaše jméno a název kalendáře).</li></ul></li><li><strong>Přihlášení přes Apple ID</strong> (Sign in with Apple): přihlášení zpracovává Apple. Aplikace dostane jen identifikátor účtu a při prvním přihlášení jméno a e-mail (pokud je sdílíte – můžete použít skrytý e-mail). Aplikace tyto údaje ukládá jen v zařízení a nikomu je nepředává.</li><li><strong>Zálohy zařízení</strong> (iCloud záloha, záloha do počítače, Time Machine): pokud je máte zapnuté, mohou zahrnovat i data aplikace. Zálohy spravuje váš systém a Apple podle jejich podmínek.</li></ol>
+<p>Aplikace data <strong>neprodává, nesdílí s reklamními platformami ani s dalšími třetími stranami</strong><br>a nepoužívá identifikátory zařízení k vašemu rozpoznání.</p>
+<h2>Face ID a Touch ID</h2>
+<p>Ochrana deníku, soukromých událostí a mazání všech dat může vyžadovat Face ID nebo Touch ID.<br>Biometrické údaje zpracovává jen systém ve vašem zařízení. Aplikace je nevidí, neukládá<br>ani nepřenáší; dostane jen výsledek ověření (úspěch nebo neúspěch).</p>
+<h2>Oznámení</h2>
+<p>Aplikace posílá <strong>místní oznámení</strong> vytvořená ve vašem zařízení: připomenutí událostí,<br>které si nastavíte, dotazy na náladu a připomenutí check-inu u výzev, pokud je zapnete.<br>Oznámení nikdy neslouží k reklamě. Obsah oznámení (např. název a místo události) se může<br>zobrazit na zamčené obrazovce podle systémového nastavení náhledů.</p>
+<p><strong>Jak je vypnout:</strong> Nastavení aplikace › Dotazy na náladu, nebo kdykoli v Nastavení systému ›<br>Oznámení › CoupleTender. Po odebrání oprávnění aplikace žádná oznámení nezobrazí.</p>
+<h2>Jak dlouho data uchováváme a jak je smažete</h2>
+<ul><li>Data zůstávají v zařízení, dokud je nesmažete.</li><li><strong>Jednotlivě</strong> smažete události, kalendáře (kromě posledního), úkoly, zápisy, nákupní seznamy,</li></ul>
+<p>položky a přidané osoby. Fotku profilu lze odebrat.</p>
+<ul><li><strong>Vše najednou</strong> smažete v Nastavení › Soukromí a data › <strong>Smazat všechna data</strong> (smaže</li></ul>
+<p>všechna data, nastavení a naplánovaná oznámení v zařízení), nebo odinstalováním aplikace.</p>
+<ul><li>Dočasné soubory vytvořené pro sdílení se mažou při dalším spuštění aplikace.</li></ul>
+<h2>Export</h2>
+<p>V Nastavení › Soukromí a data › Export vytvoříte jeden ZIP soubor: <code>calendars.ics</code> (všechny<br>události, otevře je každý kalendář) a <code>backup.json</code> (úplná záloha událostí, úkolů, deníku,<br>nákupních seznamů, cílů, domácích prací, výzev, nápadů na rande, lidí a kalendářů).<br><strong>Nálady se neexportují.</strong> Jednotlivé kalendáře lze exportovat i v Nastavení › Import a export.</p>
+<h2>Děti</h2>
+<p>CoupleTender není určena dětem mladším 13 let a vědomě neshromažďuje údaje od dětí.</p>
+<h2>Změny zásad</h2>
+<p>Synchronizace přes iCloud ani sdílení s partnerem v reálném čase zatím v aplikaci nejsou.<br>Pokud je přidáme, zásady upravíme a před zapnutím vás aplikace požádá o souhlas. Změny, které<br>rozšíří sběr nebo sdílení dat, vám předem oznámíme.</p>
+<h2>Kontakt</h2>
+<p>mira.smrci@gmail.com – dotazy k soukromí a ke zpracování údajů.</p>
+</main>
+</body>
+</html>
